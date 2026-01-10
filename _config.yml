@@ -1,17 +1,17 @@
 # Company Information
-company_name: Adassa
-domain_name: adassa.com.jm
+company_name: Adassa FinTech
+domain_name: fintech.adassa.com.jm
 address_line: Kingston
 country: Jamaica
 company_email: mail@adassa.com.jm
 description: This is the AES, Inc. website.
-meta_description: business management system, engineering, information technology, personal development, personal products
+meta_description: financial management system, information technology, personal finance
 
 # Site Information
-title: Adassa
+title: Adassa FinTech
 author: Desmond Bennett
 baseurl: ""
-url: https://adassa.com.jm
+url: https://fintech.adassa.com.jm
 permalink: pretty
 
 # Social Links
@@ -20,7 +20,7 @@ twitter_link: https://twitter.com/DPB_and_A
 github_link: https://github.com/Adassa-Enterprise-Solutions/
 
 disqus: false
-disqus_shortname: adassa
+disqus_shortname: adassa_fintech
 
 # Build settings
 markdown: kramdown
