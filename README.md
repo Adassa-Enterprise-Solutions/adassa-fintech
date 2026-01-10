@@ -1,5 +1,5 @@
-# Adassa Website
-Adassa website
+# Adassa FinTech Website
+Adassa FinTech website
 
 ## Development
 
