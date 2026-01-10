@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+    {% include head.html %}  
+    <body>
+        {% include header.html %}    
+        <!-- Begin carousel -->
+        <div id="homeCarousel" 
+             class="carousel slide" 
+             data-ride="carousel"
+             style="margin-top: -20px;">
+            <ol class="carousel-indicators">
+                <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#homeCarousel" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">    
+                <div class="carousel-item active">
+                    <a href="https://academy.adassa.com.jm/" >
+                        <img src="../assets/media/slider/e-learn.jpg" 
+                             class="d-block w-100" 
+                             alt="Adassa Academy">
+                    </a>
+                    
+                    <div class="carousel-caption d-none d-md-block">
+                        <a href="https://academy.adassa.com.jm/" >
+                            <h2 style="color: black;margin-top: -300px;">
+                                Adassa Academy
+                            </h2>
+                        </a>
+                    </div>
+                    
+                </div>
+                
+                <div class="carousel-item">
+                    <a href="https://store.adassa.com.jm/">
+                        <img src="../assets/media/slider/fish-care.jpg" 
+                             class="d-block w-100" 
+                             alt="Fish Care">
+                    </a>
+                    
+                    <div class="carousel-caption d-none d-md-block">
+                        <a href="https://store.adassa.com.jm/">
+                            <h2 style="color: whitesmoke;margin-top: -100px;">
+                                FISH CARE
+                            </h2>
+                            <h3 style="color: whitesmoke;">
+                                Find everything you need for the care of your fish!
+                            </h3>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-target="#homeCarousel" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#homeCarousel" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </button>
+        </div>
+        <!-- End carousel -->
+        <main>
+            {{ content }} 
+        </main>
+        {% include footer.html %}
+    </body>  
+</html>
