@@ -1,5 +1,6 @@
 # Company Information
 company_name: Adassa Finance
+copyright: D P Bennett & Associates Ltd.
 domain_name: fintech.adassa.com.jm
 address_line: Kingston
 country: Jamaica
@@ -8,7 +9,7 @@ description: This is the Adassa Finance website.
 meta_description: financial management system, information technology, personal finance
 
 # Site Information
-title: Adassa FinTech
+title: Adassa Finance
 author: Desmond Bennett
 baseurl: ""
 url: https://fintech.adassa.com.jm
